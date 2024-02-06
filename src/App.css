@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 #root {
-  max-width: 1280px;
+  max-width: 1536px;
+  max-height: 1800;
+  /* height: 100vh; */
   margin: 0 auto;
   padding: 0;
   text-align: center;

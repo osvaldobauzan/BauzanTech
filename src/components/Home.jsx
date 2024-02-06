@@ -14,8 +14,8 @@ const Home = () => {
 
      
 
-	<div className=" text-green-bauzan container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-4 lg:px-10 lg:flex-row lg:justify-between">
-		<div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left ">
+	<div className=" text-green-bauzan container flex flex-col justify-center md:flex-col p-6 mx-auto max-h-screen sm:py-12 lg:py-2 lg:px-10 lg:flex-row lg:justify-between xl:py-20 xl:text-2xl">
+		<div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left lg:text-lg xl:text-2xl">
             <div className='transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700'>
             <h1 className="font-Flipahaus text-6xl font-bold leadi sm:text-6xl">Welcome
 				<span className="text-blue-bauzan"> to </span>
@@ -31,7 +31,7 @@ const Home = () => {
 				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-100">Malesuada</a>
 			</div>
 		</div>
-		<div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+		<div className="flex items-center justify-center p-6 mt-2 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 lg:text-lg xl:text-2xl">
 			<img src={imageHero} alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700" />
 		</div>
 	</div>
