@@ -12,10 +12,8 @@ const Home = () => {
    
     <section className="font-Montserrat font-bold">
         <Nav logo={BuazanRoundedLogo}  />
-
-     
-
-	<div className=" text-green-bauzan container flex flex-col justify-center md:flex-col p-6 mx-auto max-h-screen sm:py-12 lg:py-2 lg:px-10 lg:flex-row lg:justify-between xl:py-20 xl:text-2xl">
+		<div className='h-4'></div>
+    	<div className=" text-green-bauzan container flex flex-col justify-center md:flex-col p- mx-auto max-h-screen xs sm:py-12 lg:py-2 lg:px-10 lg:flex-row lg:justify-between xl:py-20 xl:text-2xl">
 		<div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left lg:text-lg xl:text-2xl">
             <div className='transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700'>
             <h1 className="font-Flipahaus text-6xl font-bold leadi sm:text-6xl">Welcome
