@@ -6,7 +6,7 @@ import { Navbar } from 'flowbite-react';
 
 const Nav = ({ logo }) => {
   return (
-    <Navbar fluid rounded className="md:flex md:justify-center xl:h-20 lg:h-16 ">    
+    <Navbar fluid rounded className="md:grid md:justify-center xl:h-20 lg:h-16 ">    
        <Navbar.Toggle className="bg-transparent text-green-bauzan" />
       <Navbar.Collapse>
         
