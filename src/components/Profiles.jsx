@@ -4,7 +4,10 @@ import mexflag from '../assets/flag.png'
 import spainflag from '../assets/spain.png'
 import usflag from '../assets/estados-unidos.png'
 // import brflag from '../assets/brasil.png'
-import Bauzan from '../assets/bauzan_img.jpg'
+// import Bauzan from '../assets/bauzan_img.jpg'
+// import Bauzan2 from '../assets/bauzan_img_2.jpg'
+// import Bauzan3 from '../assets/bauzan_img_3.jpg'
+import Bauzan4 from '../assets/bauzan_img_4.jpg'
 import Santi from '../assets/fotosanti.png'
 import Melanie from '../assets/Melanie.jpg'
 import React from 'react'
@@ -25,7 +28,7 @@ const Profiles = () => {
     <div className="flex flex-col items-center py-8">
       
         <div className='m-4'>
-        <img src={Bauzan} className='w-32 h-32 mb-3 rounded-full shadow-lg' />
+        <img src={Bauzan4} className='w-32 h-32 mb-3 rounded-full shadow-lg' />
         </div>
 
         <h5 className="mb-1 text-xl font-medium text-gray-900">Osvaldo Bauzan</h5>

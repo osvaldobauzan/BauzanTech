@@ -33,7 +33,7 @@ const Home = () => {
 			<img src={imageHero} alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700" />
 		</div>
 	</div>
-	<div className='h-2'></div>
+	<div className='h-5'></div>
 	<footer className="bg-white rounded-lg max-h-full mt-4 sm:flex sm:flex-col sm:text-center sm:justify-between ">
 		<div className="w-full max-w-screen-xl mx-auto md:py-8 lg:px-8">
 			<div className="lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row sm:justify-between flex flex-col items-center space-y-7 mt-4 md:mt-0">
