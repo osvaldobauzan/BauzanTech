@@ -4,6 +4,7 @@ import mexflag from '../assets/flag.png'
 import spainflag from '../assets/spain.png'
 import Bauzan from '../assets/bauzan_img.jpg'
 import Santi from '../assets/fotosanti.png'
+import Melanie from '../assets/Melanie.jpg'
 import React from 'react'
 import { Modal } from 'flowbite-react';
 import { useState } from 'react';
@@ -14,6 +15,7 @@ const Profiles = () => {
   const [openModal, setOpenModal] = useState(false);
   const [openModal2, setOpenModal2] = useState(false);
   const [openModal3, setOpenModal3] = useState(false);
+  const [openModal4, setOpenModal4] = useState(false);
   return (
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 xl:my-12">
     <div>
@@ -28,7 +30,8 @@ const Profiles = () => {
         <span className="text-sm text-gray-500 dark:text-gray-400">Fundador y Director Ejecutivo</span>
         <div className="mt-4 flex space-x-3 lg:mt-6 h-10">
           <a
-            href="#"
+            href="https://www.linkedin.com/in/osvaldobauzan/"
+            target="_blank"
             className="inline-flex items-center text-center"
           >
             <svg className="w-[30px] h-[30px] text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
@@ -37,7 +40,7 @@ const Profiles = () => {
           </svg>
           </a>
           <a
-            href="#"
+            //href="#"
             className="inline-flex items-center text-center h-9"
           >
           <img src={mexflag} alt="" className='h-6 mt-2' />
@@ -68,7 +71,8 @@ const Profiles = () => {
                 <span className="text-sm text-gray-500 dark:text-gray-400">Desarrollador Full Stack</span>
                 <div className="mt-4 flex space-x-3 lg:mt-6 h-10">
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/santiagopulidod02/"
+                    target="_blank"
                     className="inline-flex items-center text-center"
                   >
                     <svg className="w-[30px] h-[30px] text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
@@ -77,7 +81,7 @@ const Profiles = () => {
                   </svg>
                   </a>
                   <a
-                    href="#"
+                    //href="#"
                     className="inline-flex items-center text-center h-9"
                   >
                   <img src={spainflag} alt="" className='h-6 mt-2' />
@@ -100,14 +104,15 @@ const Profiles = () => {
     <div>
     <div className="flex flex-col items-center py-8 ">
                 <div className='m-4'>
-                <img src={Jenny} className='w-32 h-32 mb-3 rounded-full shadow-lg' />
+                <img src={Melanie} className='w-32 h-32 mb-3 rounded-full shadow-lg' />
                 </div>
 
                 <h5 className="mb-1 text-xl font-medium text-gray-900">Melanie Leon</h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Directora de Operaciones</span>
                 <div className="mt-4 flex space-x-3 lg:mt-6 h-10">
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/melanie-leon-suaste-3047642b2/"
+                    target="_blank"
                     className="inline-flex items-center text-center"
                   >
                     <svg className="w-[30px] h-[30px] text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
@@ -116,13 +121,13 @@ const Profiles = () => {
                   </svg>
                   </a>
                   <a
-                    href="#"
+                    //href="#"
                     className="inline-flex items-center text-center h-9"
                   >
                   <img src={mexflag} alt="" className='h-6 mt-2' />
                   </a>
-                  <button onClick={() => setOpenModal3(true)} className='bg-transparent text-black hover:bg-none'><TiArrowForward /></button>
-                    <Modal dismissible show={openModal3} onClose={() => setOpenModal3(false)}>
+                  <button onClick={() => setOpenModal4(true)} className='bg-transparent text-black hover:bg-none'><TiArrowForward /></button>
+                    <Modal dismissible show={openModal4} onClose={() => setOpenModal4(false)}>
                       <Modal.Body>
                         <div className="space-y-6">
                           <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
@@ -146,7 +151,8 @@ const Profiles = () => {
                 <span className="text-sm text-gray-500 dark:text-gray-400">Desarrolladora Back End Jr</span>
                 <div className="mt-4 flex space-x-3 lg:mt-6 h-10">
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/ada-jennifer-bauzan-alvaradejo-682417283/"
+                    target="_blank"
                     className="inline-flex items-center text-center"
                   >
                     <svg className="w-[30px] h-[30px] text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
@@ -155,7 +161,7 @@ const Profiles = () => {
                   </svg>
                   </a>
                   <a
-                    href="#"
+                    //href="#"
                     className="inline-flex items-center text-center h-9"
                   >
                   <img src={mexflag} alt="" className='h-6 mt-2' />
