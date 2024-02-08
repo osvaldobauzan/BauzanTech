@@ -103,8 +103,8 @@ const Profiles = () => {
                 <img src={Jenny} className='w-32 h-32 mb-3 rounded-full shadow-lg' />
                 </div>
 
-                <h5 className="mb-1 text-xl font-medium text-gray-900">Jennyfer Bauzan Jr</h5>
-                <span className="text-sm text-gray-500 dark:text-gray-400">Desarrolladora Back End</span>
+                <h5 className="mb-1 text-xl font-medium text-gray-900">Melanie Leon</h5>
+                <span className="text-sm text-gray-500 dark:text-gray-400">Directora de Operaciones</span>
                 <div className="mt-4 flex space-x-3 lg:mt-6 h-10">
                   <a
                     href="#"
@@ -142,8 +142,8 @@ const Profiles = () => {
                 <img src={Jenny} className='w-32 h-32 mb-3 rounded-full shadow-lg' />
                 </div>
 
-                <h5 className="mb-1 text-xl font-medium text-gray-900">Jennyfer Bauzan Jr</h5>
-                <span className="text-sm text-gray-500 dark:text-gray-400">Desarrolladora Back End</span>
+                <h5 className="mb-1 text-xl font-medium text-gray-900">Jennifer Bauzan</h5>
+                <span className="text-sm text-gray-500 dark:text-gray-400">Desarrolladora Back End Jr</span>
                 <div className="mt-4 flex space-x-3 lg:mt-6 h-10">
                   <a
                     href="#"
@@ -165,9 +165,7 @@ const Profiles = () => {
                       <Modal.Body>
                         <div className="space-y-6">
                           <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                          ¡Hola! Soy Melanie. Estudié Psicología en la Universidad IBERO Puebla y me encargo de asegurar el correcto funcionamiento de todo por aquí. 
-                           Disfruto de mi tiempo libre leyendo y haciendo ejercicio, especialmente yoga, barre y danza latina.
-                           Estaré encantada de explorar cómo podemos hacer crecer tu negocio.
+                          Soy Jenny, estudiante de Ingeniería en Computación Inteligente en la Universidad Autónoma de Aguascalientes. Aunque equilibrar el trabajo con los estudios es un desafío, disfruto hacer que tus soluciones tecnológicas funcionen detrás del escenario. Me gusta la música y pasar tiempo con mi familia. Estoy lista para implementar los servidores virtuales que harán realidad tus sueños.
                           </p>
                         </div>
                       </Modal.Body>
