@@ -53,6 +53,7 @@ const Profiles = () => {
           
           <button onClick={() => setOpenModal(true)} className='bg-transparent text-black hover:bg-none'><TiArrowForward /></button>
           <Modal dismissible show={openModal} onClose={() => setOpenModal(false)}>
+          <Modal.Header></Modal.Header>
             <Modal.Body>
               <div className="space-y-6">
                 <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
@@ -93,7 +94,7 @@ const Profiles = () => {
                   </a>
                   <button onClick={() => setOpenModal2(true)} className='bg-transparent text-black hover:bg-none'><TiArrowForward /></button>
                     <Modal dismissible show={openModal2} onClose={() => setOpenModal2(false)}>
-                    
+                    <Modal.Header></Modal.Header>  
                       <Modal.Body>
                         <div className="space-y-6">
                           <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
@@ -133,6 +134,7 @@ const Profiles = () => {
                   </a>
                   <button onClick={() => setOpenModal4(true)} className='bg-transparent text-black hover:bg-none'><TiArrowForward /></button>
                     <Modal dismissible show={openModal4} onClose={() => setOpenModal4(false)}>
+                      <Modal.Header></Modal.Header>
                       <Modal.Body>
                         <div className="space-y-6">
                           <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
@@ -173,6 +175,7 @@ const Profiles = () => {
                   </a>
                   <button onClick={() => setOpenModal3(true)} className='bg-transparent text-black hover:bg-none'><TiArrowForward /></button>
                     <Modal dismissible show={openModal3} onClose={() => setOpenModal3(false)}>
+                    <Modal.Header></Modal.Header>
                       <Modal.Body>
                         <div className="space-y-6">
                           <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
