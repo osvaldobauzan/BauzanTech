@@ -1,15 +1,40 @@
 import { Route, Routes } from "react-router-dom";
 import './App.css'
-import Home from './pages/Home'
+// import HomeEng from './pages/HomeEng'
 import About from "./pages/About";
+import Home from './pages/Home'
 
 function App() {
   
 
   return (
     <Routes>
+
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+
+        <Route path="/About" element={<About />} />
+        {/* <Route path="/es" element={<Home />} />
+
+        <Route path="/homeEng" element={<HomeEng />} />
+        <Route path="/home-spa" element={<Home-spa />} />
+        <Route path="/home-por" element={<Home-por />} />
+
+        <Route path="/about-eng" element={<About-eng />} />
+        <Route path="/about-spa" element={<About-spa />} />
+        <Route path="/about-por" element={<About-por />} />
+
+        <Route path="/services-eng" element={<Services-eng />} />
+        <Route path="/services-spa" element={<Services-eng />} />
+        <Route path="/services-por" element={<Services-eng />} />
+
+        <Route path="/clients-eng" element={<Clients-eng />} />
+        <Route path="/clients-spa" element={<Clients-spa />} />
+        <Route path="/clients-por" element={<Clients-por />} />
+
+        <Route path="/contact-eng" element={<Contact-eng />} />
+        <Route path="/contact-spa" element={<Contact-spa />} />
+        <Route path="/contact-por" element={<Contact-por />} /> */}
+
     </Routes>
   )
 }

@@ -2,6 +2,8 @@
 import Jenny from '../assets/Jenny_img.jpg'
 import mexflag from '../assets/flag.png'
 import spainflag from '../assets/spain.png'
+import usflag from '../assets/estados-unidos.png'
+// import brflag from '../assets/brasil.png'
 import Bauzan from '../assets/bauzan_img.jpg'
 import Santi from '../assets/fotosanti.png'
 import Melanie from '../assets/Melanie.jpg'
@@ -124,7 +126,7 @@ const Profiles = () => {
                     //href="#"
                     className="inline-flex items-center text-center h-9"
                   >
-                  <img src={mexflag} alt="" className='h-6 mt-2' />
+                  <img src={usflag} alt="" className='h-6 mt-2' />
                   </a>
                   <button onClick={() => setOpenModal4(true)} className='bg-transparent text-black hover:bg-none'><TiArrowForward /></button>
                     <Modal dismissible show={openModal4} onClose={() => setOpenModal4(false)}>
