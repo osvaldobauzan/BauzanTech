@@ -147,7 +147,7 @@ const Contact = () => {
         <Checkbox  required/>
         <Label htmlFor="terms">Aceptar Terminos de Privacidad</Label>
       </div>
-      <Button type="submit">Submit</Button>
+      <Button className='bg-blue-bauzan' type="submit">Submit</Button>
     </form>
     </section>
     </section>
