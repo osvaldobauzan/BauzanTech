@@ -76,19 +76,19 @@ const Contact = () => {
     <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-full max-w-2xl lg:m-2 p-12 lg:p-2 justify-center">
       <div>
         <div className="mb-2 block font-bold">
-          <Label htmlFor="username3" value="Your name" className='font-bold'/>
+          <Label htmlFor="username3" value="Nombre:" className='font-bold'/>
         </div>
         <TextInput 
             type="name" 
             value={name} 
-            placeholder="Juan López" 
+            placeholder="Osvaldo Bauzan" 
             required
             onChange={(e) => setName(e.target.value)}
         />
       </div>
       <div>
         <div className="mb-2 block font-bold">
-          <Label htmlFor="email1" value="Your email" className='font-bold'/>
+          <Label htmlFor="email1" value="E-mail" className='font-bold'/>
         </div>
         <TextInput 
             type="email" 
@@ -101,11 +101,12 @@ const Contact = () => {
       </div>
       <div>
         <div className="mb-2 block font-bold">
-          <Label htmlFor="phone" value="Your Phone" className='font-bold'/>
+          <Label htmlFor="phone" value="Teléfono" className='font-bold'/>
         </div>
         <TextInput 
             type="phone" 
-            value={phone} 
+            value={phone}
+            placeholder="+52 7353593762" 
             required
             onChange={(e) => setPhone(e.target.value)}
 
@@ -113,21 +114,22 @@ const Contact = () => {
       </div>
       <div>
         <div className="mb-2 block font-bold">
-          <Label htmlFor="phone" value="Company Name" className='font-bold'/>
+          <Label htmlFor="phone" value="Empresa o Negocio" className='font-bold'/>
         </div>
         <TextInput 
             type="company" 
             value={company} 
+            placeholder="+Bauzan Tech Solutions" 
             required
             onChange={(e) => setCompany(e.target.value)}
         />
       </div>
       <div>
         <div className="mb-2 block font-bold">
-        <Label htmlFor="comment" value="Your message" className='font-bold' required/>
+        <Label htmlFor="comment" value="Me gustaría saber más de ..." className='font-bold' required/>
       </div>
       <Textarea 
-        placeholder="Leave a comment..." 
+        placeholder="Escribe aquí tu texto, saludos! :)" 
         value={message} 
         required 
         rows={4}
@@ -147,7 +149,7 @@ const Contact = () => {
         <Checkbox  required/>
         <Label htmlFor="terms">Aceptar Terminos de Privacidad</Label>
       </div>
-      <Button className='bg-blue-bauzan' type="submit">Submit</Button>
+      <Button className='bg-blue-bauzan' type="submit">Enviar</Button>
     </form>
     </section>
     </section>
