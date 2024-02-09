@@ -15,7 +15,7 @@ const Home = () => {
     <div className=" text-green-bauzan container mt-6 flex flex-col justify-center md:flex-col mx-auto max-h-screen sm:py-8 lg:py-0 lg:px-10 lg:flex-row lg:gap-10 xl:py-12 xl:text-2xl">
 		<div className="flex flex-col justify-center px-6 pb-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left lg:text-lg xl:text-2xl">
             <div className='transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700'>
-            <h1 className="font-Flipahaus text-6xl font-bold leadi sm:text-6xl">Bienvenido
+            <h1 className="font-Flipahaus text-6xl font-bold leadi sm:text-6xl">Welcome
 				<span className="text-blue-bauzan"> to </span>
                 <img src={BauzanLogo} alt="" />
 			</h1>
