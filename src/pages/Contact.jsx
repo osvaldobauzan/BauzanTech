@@ -88,7 +88,7 @@ const Contact = () => {
       </div>
       <div>
         <div className="mb-2 block font-bold">
-          <Label htmlFor="email1" value="E-mail" className='font-bold'/>
+          <Label htmlFor="email1" value="E-mail:" className='font-bold'/>
         </div>
         <TextInput 
             type="email" 
@@ -101,7 +101,7 @@ const Contact = () => {
       </div>
       <div>
         <div className="mb-2 block font-bold">
-          <Label htmlFor="phone" value="Teléfono" className='font-bold'/>
+          <Label htmlFor="phone" value="Teléfono:" className='font-bold'/>
         </div>
         <TextInput 
             type="phone" 
@@ -114,12 +114,12 @@ const Contact = () => {
       </div>
       <div>
         <div className="mb-2 block font-bold">
-          <Label htmlFor="phone" value="Empresa o Negocio" className='font-bold'/>
+          <Label htmlFor="phone" value="Empresa o Negocio:" className='font-bold'/>
         </div>
         <TextInput 
             type="company" 
             value={company} 
-            placeholder="+Bauzan Tech Solutions" 
+            placeholder="Bauzan Tech Solutions" 
             required
             onChange={(e) => setCompany(e.target.value)}
         />
