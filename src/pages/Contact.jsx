@@ -2,7 +2,7 @@
 'use client';
 import BuazanRoundedLogo from '/src/assets/Blue-round-Logo.png'
 import BauzanRoundedRedLogo from '/src/assets/Red-round-Logo.png'
-import { Button, Checkbox, Label, TextInput, Textarea } from 'flowbite-react';
+import { Button, Checkbox, Label, Radio, TextInput, Textarea } from 'flowbite-react';
 import Nav from '../components/Navbar';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
@@ -14,6 +14,7 @@ const Contact = () => {
     const [company, setCompany] = useState('')
     const [phone, setPhone] = useState('')
     const [message, setMessage] = useState('')
+    const [whatsApp, setWhatsApp] = useState('')
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -22,13 +23,16 @@ const Contact = () => {
         const templateId = 'template_zhkry8s'
         const userId = 'oo8-tuo0DC0b_dZUx'
 
+        const whatsappStatus = whatsApp ? 'Sí tiene WhatsApp' : 'No tiene WhatsApp';
+
         const templateParams = {
             from_name: name,
             from_email: email,
             from_company: company,
             from_phone: phone,
             to_name: 'Bauzan Tech Solutions',
-            message: message
+            message: message,
+            whatsApp: whatsappStatus
         }
 
     emailjs.send(serviceId, templateId, templateParams, userId)
@@ -39,6 +43,7 @@ const Contact = () => {
             setMessage('');
             setCompany('');
             setPhone('');
+            setWhatsApp('')
         })
         .catch((error) => {
             console.log('Error sending email: ', error);
@@ -49,15 +54,15 @@ const Contact = () => {
     <section className='font-Montserrat text-left lg:text-lg flex flex-col justify-center items-center'>
     <Nav logo={BuazanRoundedLogo}/>
 
-    <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-full max-w-2xl m-12 font-bold">
+    <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-full max-w-2xl m-12 ">
       <div>
-        <div className="mb-2 block">
-          <Label htmlFor="username3" value="Your name" />
+        <div className="mb-2 block font-bold">
+          <Label htmlFor="username3" value="Your name" className='font-bold'/>
         </div>
         <TextInput 
             type="name" 
             value={name} 
-            placeholder="Bonnie Green" 
+            placeholder="Juan López" 
             required
             onChange={(e) => setName(e.target.value)}
         />
@@ -99,8 +104,8 @@ const Contact = () => {
         />
       </div>
       <div>
-        <div className="mb-2 block">
-        <Label htmlFor="comment" value="Your message" required/>
+        <div className="mb-2 block font-bold">
+        <Label htmlFor="comment" value="Your message" className='font-bold' required/>
       </div>
       <Textarea 
         placeholder="Leave a comment..." 
@@ -109,6 +114,15 @@ const Contact = () => {
         rows={4}
         onChange={(e) => setMessage(e.target.value)}
       />
+    </div>
+    <div>
+        <div className="mb-2 block">
+        <Label htmlFor="comment" value="¿Tienes WhatsApp?"/>
+      </div>
+      <div className="flex items-center gap-2">
+        <Checkbox name="yes" checked={whatsApp} onChange={(e) => setWhatsApp(e.target.checked)}  />
+        <Label htmlFor="Yes">Si</Label>
+      </div>
     </div>
       <div className="flex items-center gap-2">
         <Checkbox  required/>
