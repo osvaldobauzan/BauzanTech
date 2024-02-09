@@ -1,11 +1,11 @@
 
 'use client';
 import BuazanRoundedLogo from '/src/assets/Blue-round-Logo.png'
-import BauzanRoundedRedLogo from '/src/assets/Red-round-Logo.png'
 import { Button, Checkbox, Label, Radio, TextInput, Textarea } from 'flowbite-react';
 import Nav from '../components/Navbar';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
 
@@ -19,37 +19,52 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        const serviceId = 'service_qpb0r9p'
-        const templateId = 'template_zhkry8s'
-        const userId = 'oo8-tuo0DC0b_dZUx'
+        if(name && email && company && phone && message && whatsApp){
+       
+          const serviceId = 'service_qpb0r9p'
+          const templateId = 'template_zhkry8s'
+          const userId = 'oo8-tuo0DC0b_dZUx'
 
-        const whatsappStatus = whatsApp ? 'Sí tiene WhatsApp' : 'No tiene WhatsApp';
+          const whatsappStatus = whatsApp ? 'Sí tiene WhatsApp' : 'No tiene WhatsApp';
 
-        const templateParams = {
-            from_name: name,
-            from_email: email,
-            from_company: company,
-            from_phone: phone,
-            to_name: 'Bauzan Tech Solutions',
-            message: message,
-            whatsApp: whatsappStatus
-        }
+          const templateParams = {
+              from_name: name,
+              from_email: email,
+              from_company: company,
+              from_phone: phone,
+              to_name: 'Bauzan Tech Solutions',
+              message: message,
+              whatsApp: whatsappStatus
+          }
 
-    emailjs.send(serviceId, templateId, templateParams, userId)
-        .then((response) => {
-            console.log('Email sent successfully', response);
-            setName('');
-            setEmail('');
-            setMessage('');
-            setCompany('');
-            setPhone('');
-            setWhatsApp('')
-        })
-        .catch((error) => {
-            console.log('Error sending email: ', error);
+      emailjs.send(serviceId, templateId, templateParams, userId)
+          .then((response) => {
+              console.log('Email sent successfully', response);
+              setName('');
+              setEmail('');
+              setMessage('');
+              setCompany('');
+              setPhone('');
+              setWhatsApp('')
+
+              Swal.fire({
+                title:  "¡Gracias por ponerte en contacto!",
+                text: "Nos pondremos en contacto contigo lo antes posible.",
+                icon: "success",
+              });
+
+          })
+          .catch((error) => {
+              console.log('Error sending email: ', error);
+          });
+      }else{
+          Swal.fire({
+            title: "¡Error!",
+            text: "Por favor, completa todos los campos obligatorios.",
+            icon: "error"
         });
-    }
-
+      }
+  }
   return (
     <section className='font-Montserrat text-left lg:text-lg flex flex-col justify-center items-center'>
     <Nav logo={BuazanRoundedLogo}/>
