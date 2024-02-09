@@ -15,18 +15,18 @@ const Home = () => {
     <div className=" text-green-bauzan container mt-6 flex flex-col justify-center md:flex-col mx-auto max-h-screen sm:py-8 lg:py-0 lg:px-10 lg:flex-row lg:gap-10 xl:py-12 xl:text-2xl">
 		<div className="flex flex-col justify-center px-6 pb-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left lg:text-lg xl:text-2xl">
             <div className='transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700'>
-            <h1 className="font-Flipahaus text-6xl font-bold leadi sm:text-6xl">Welcome
+            <h1 className="font-Flipahaus text-6xl font-bold leadi sm:text-6xl">Bienvenido
 				<span className="text-blue-bauzan"> to </span>
                 <img src={BauzanLogo} alt="" />
 			</h1>
             </div>
 			
-			<p className="mt-6 mb-8 text-md sm:mb-12 font-extrabold">Empowering Digital Adoption.
-				<br  className="hidden md:inline lg:hidden" /> We're here to help you find the perfect digital solution for your business. We offer solutions that fit your budget and leave your customers amazed.
+			<p className="mt-6 mb-8 text-md sm:mb-12 font-extrabold">Impulsando la Adopción Digital
+				<br  className="hidden md:inline lg:hidden" /> Estamos aquí para ayudarle a encontrar la solución digital perfecta para su negocio. Ofrecemos soluciones que se ajustan a su presupuesto y dejan asombrados a sus clientes.
 			</p>
 			<div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start ">
-				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded bg-blue-bauzan text-green-bauzan transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700">Contact Us</a>
-				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-100">Our Clients</a>
+				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded bg-blue-bauzan text-green-bauzan transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700">Contactanos</a>
+				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-100">Nuestros Clientes</a>
 			</div>
 		</div>
 		<div className="flex items-center justify-center p-6 mt-2 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 lg:text-lg xl:text-2xl">

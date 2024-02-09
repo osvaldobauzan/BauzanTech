@@ -7,6 +7,9 @@ import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
+
+<h1 className="mx-20 mt-10 font-Flipahaus text-6xl font-bold leadi sm:text-6xl text-green-bauzan">Contáctanos: </h1>  
+
 const Contact = () => {
 
     const [name, setName] = useState('')
