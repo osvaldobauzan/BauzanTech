@@ -6,6 +6,7 @@ import Nav from '../components/Navbar';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
+import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
 
@@ -69,7 +70,20 @@ const Contact = () => {
     <section className='font-Montserrat text-left lg:text-lg'>
       <Nav logo={BuazanRoundedLogo}/>
 
-   
+      <h1 className="mx-32 mt-10 font-Flipahaus text-6xl font-bold leadi sm:text-6xl text-green-bauzan">Contáctanos</h1>
+      <div className='mx-32 mt-5 text-4xl flex ' >
+
+      <a href="https://wa.me/527353593762" target='_blank'>
+        <FaWhatsapp className='mr-5' />
+      </a>
+      <a href="https://www.linkedin.com/company/bauzan-tech-solutions/" target='_blank'>
+      <FaLinkedin className='mr-5'/>
+      </a>
+      <a href="https://www.instagram.com/bauzantech?igsh=MWNiYjh6czViamE5cg%3D%3D&utm_source=qr" target='_blank'>
+      <FaInstagram className='mr-5'/>
+      </a>
+
+      </div>
     <section className='flex flex-col font-bold justify-center items-center'>
 
     <p class="lg:mx-32 mx-12 mt-10 text-gray-500 dark:text-gray-400 xl:mb-10">¿Por que no nos cuentas un poco más de la solución que estás buscando? Podemos darte una consultoría gratuíta y hablar de tu negocio. Dejanos tu información por aquí y nosotros nos contactamos:</p>

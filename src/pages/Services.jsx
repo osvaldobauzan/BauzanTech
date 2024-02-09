@@ -3,6 +3,9 @@ import Nav from '../components/Navbar'
 import BuazanRoundedLogo from '/src/assets/Blue-round-Logo.png'
 import BauzanRoundedRedLogo from '/src/assets/Red-round-Logo.png'
 import { Link } from 'react-router-dom'
+import diseño_marca from '../assets/diseño marca.jpg'
+import desarrollo_web from '../assets/desarrollo web.jpg'
+import admin from '../assets/admin.jpg'
 
 
 
@@ -22,7 +25,7 @@ const Services = () => {
                 <div class="relative overflow-hidden bg-cover bg-no-repeat">
                     <img
                     class="rounded-t-lg"
-                    src="https://tecdn.b-cdn.net/img/new/standard/city/062.jpg"
+                    src={desarrollo_web}
                     alt="" />
                 </div>
                 <div class="p-6">
@@ -55,7 +58,7 @@ const Services = () => {
                 <div class="relative overflow-hidden bg-cover bg-no-repeat">
                     <img
                     class="rounded-t-lg"
-                    src="https://tecdn.b-cdn.net/img/new/standard/city/062.jpg"
+                    src={diseño_marca}
                     alt="" />
                 </div>
                 <div class="p-6">
@@ -88,7 +91,7 @@ const Services = () => {
                 <div class="relative overflow-hidden bg-cover bg-no-repeat">
                     <img
                     class="rounded-t-lg"
-                    src="https://tecdn.b-cdn.net/img/new/standard/city/062.jpg"
+                    src={admin}
                     alt="" />
                 </div>
                 <div class="p-6">
@@ -168,18 +171,51 @@ const Services = () => {
                    E-Commerce - Aplicaciones Web
                     </h5>
                     <p class="text-base text-green-bauzan ">
-                    ¿Quieres vender tus productos en línea con mayor profesionalismo? Creamos tu tienda en línea o aplicación web para que tus clientes compren con total confianza y sin pagar comisiones a plataformas como Amazon, eBay o Mercado Libre.
+                    ¿Quieres vender tus productos en línea con mayor profesionalismo? Con nuestra experiencia en desarrollo web y diseño, construiremos una tienda en línea o aplicación web que refleje la esencia de tu marca y brinde una experiencia de compra excepcional a tus clientes. Olvídate de pagar comisiones a plataformas como Amazon, eBay o Mercado Libre, ¡tu negocio estará en control total de sus ventas en línea!
                     </p>
                 </div>
                 <ul class="w-full">
                     <li
                     class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
-                    <span class="text-3xl font-bold text-red-900  line-through">Desde $27</span>
+                    <span class="text-3xl font-bold text-red-900  line-through">Desde $1100</span>
+                    </li>
+                    <li
+                    class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
+                    <span class="text-3xl font-bold text-black-900 ">Desde $699</span>
+                    </li>
+                </ul>
+                    <div class="p-6">
+                    <Link to={'/contact'}>
+                            <button type="button" class="text-white bg-green-bauzan hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-bauzan dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Contáctanos</button>
+                    </Link>
+                    </div>
+             </div>
+
+             <div class="block max-w-[22rem] rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                <div class="relative overflow-hidden bg-cover bg-no-repeat">
+                    <img
+                    class="rounded-t-lg"
+                    src="https://tecdn.b-cdn.net/img/new/standard/city/062.jpg"
+                    alt="" />
+                </div>
+                <div class="p-6">
+                    <h5
+                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-center font-semibold">
+                   Servicios Especializados para Restaurantes/Cafeterías
+                    </h5>
+                    <p class="text-base text-green-bauzan ">
+                    ¿Acabas de abrir tu restaurante o cafetería? Estamos aquí para ofrecerte soluciones integrales. Desde la implementación de menús digitales y códigos QR hasta sistemas completos de administración y puntos de venta, te ayudaremos a optimizar tu negocio y brindar una experiencia excepcional a tus clientes. Confía en nosotros para hacer que la gestión de tu establecimiento sea más eficiente y exitosa.
+                    </p>
+                </div>
+                <ul class="w-full">
+                    <li
+                    class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
+                    <span class="text-3xl font-bold text-red-900  line-through">Desde $12</span>
                     <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
                     </li>
                     <li
                     class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
-                    <span class="text-3xl font-bold text-black-900 ">Desde $15</span>
+                    <span class="text-3xl font-bold text-black-900 ">Desde $5</span>
                     <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
                     </li>
                 </ul>
@@ -188,6 +224,99 @@ const Services = () => {
                             <button type="button" class="text-white bg-green-bauzan hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-bauzan dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Contáctanos</button>
                     </Link>
                     </div>
+             </div>
+
+             <div class="block max-w-[22rem] rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                <div class="relative overflow-hidden bg-cover bg-no-repeat">
+                    <img
+                    class="rounded-t-lg"
+                    src="https://tecdn.b-cdn.net/img/new/standard/city/062.jpg"
+                    alt="" />
+                </div>
+                <div class="p-6">
+                    <h5
+                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-center font-semibold">
+                   Consultoría
+                    </h5>
+                    <p class="text-base text-green-bauzan ">
+                    ¿Estás teniendo problemas con tus sistemas digitales actuales? Estamos aquí para ayudarte. Nuestras sesiones de consultoría, a precios accesibles, te proporcionarán soluciones personalizadas para optimizar tus operaciones y superar cualquier obstáculo tecnológico. Confía en nosotros para encontrar las mejores soluciones y llevar tu negocio al siguiente nivel digital.
+                    </p>
+                </div>
+                <ul class="w-full">
+                    <li
+                    class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
+                    <span class="text-3xl font-bold text-red-900  line-through">Desde $30</span>
+                    <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+                    </li>
+                    <li
+                    class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
+                    <span class="text-3xl font-bold text-black-900 ">Desde $19</span>
+                    <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+                    </li>
+                </ul>
+                    <div class="p-6">
+                    <Link to={'/contact'}>
+                            <button type="button" class="text-white bg-green-bauzan hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-bauzan dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Contáctanos</button>
+                    </Link>
+                    </div>
+             </div>     
+             
+             <div class="block max-w-[22rem] rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                <div class="relative overflow-hidden bg-cover bg-no-repeat">
+                    <img
+                    class="rounded-t-lg"
+                    src="https://tecdn.b-cdn.net/img/new/standard/city/062.jpg"
+                    alt="" />
+                </div>
+                <div class="p-6">
+                    <h5
+                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-center font-semibold">
+                   Gestión de Citas y Reservaciones de Eventos
+                    </h5>
+                    <p class="text-base text-green-bauzan ">
+                    Transforma la gestión de tu negocio con nuestra plataforma de citas y reservaciones. Con soluciones personalizadas, agilizamos la programación, reducimos cancelaciones y elevamos la experiencia del cliente. Confía en nosotros para optimizar tus operaciones y mejorar tu servicio, permitiéndote enfocarte en lo más importante: hacer crecer tu negocio.                    
+                    </p>
+                </div>
+                <ul class="w-full">
+                    <li
+                    class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
+                    <span class="text-3xl font-bold text-red-900  line-through">Desde $30</span>
+                    <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+                    </li>
+                    <li
+                    class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
+                    <span class="text-3xl font-bold text-black-900 ">Desde $19</span>
+                    <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/month</span>
+                    </li>
+                </ul>
+                    <div class="p-6">
+                    <Link to={'/contact'}>
+                            <button type="button" class="text-white bg-green-bauzan hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-bauzan dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Contáctanos</button>
+                    </Link>
+                    </div>
+             </div>
+
+             <div class="block max-w-[22rem] rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                <div class="relative overflow-hidden bg-cover bg-no-repeat">
+                    <img
+                    class="rounded-t-lg"
+                    src="https://tecdn.b-cdn.net/img/new/standard/city/062.jpg"
+                    alt="" />
+                </div>
+                <div class="p-6">
+                    <h5
+                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-center font-semibold">
+                   Otro
+                    </h5>
+                    <p class="text-base text-green-bauzan ">
+                    ¿Tienes alguna otra necesidad tecnológica? Permítenos ayudarte. Estamos seguros de que, si nos das la oportunidad, resolveremos tus problemas digitales y potenciaremos tu negocio.
+                    </p>
+                </div>
+                <div class="p-6">
+                    <Link to={'/contact'}>
+                            <button type="button" class="text-white bg-green-bauzan hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-bauzan dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Contáctanos</button>
+                    </Link>
+                    </div>      
              </div>
      
         </div>
