@@ -49,7 +49,7 @@ const Contact = () => {
 
               Swal.fire({
                 title:  "¡Gracias por ponerte en contacto!",
-                text: "Nos pondremos en contacto contigo lo antes posible.",
+                text: "¡Te saludaremos en breve!",
                 icon: "success",
               });
 
@@ -66,10 +66,14 @@ const Contact = () => {
       }
   }
   return (
-    <section className='font-Montserrat text-left lg:text-lg flex flex-col justify-center items-center'>
-    <Nav logo={BuazanRoundedLogo}/>
+    <section className='font-Montserrat text-left lg:text-lg'>
+      <Nav logo={BuazanRoundedLogo}/>
 
-    <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-full max-w-2xl m-12 ">
+   
+    <section className='flex flex-col font-bold justify-center items-center'>
+
+    <p class="lg:mx-32 mx-12 mt-10 text-gray-500 dark:text-gray-400 xl:mb-10">¿Por que no nos cuentas un poco más de la solución que estás buscando? Podemos darte una consultoría gratuíta y hablar de tu negocio. Dejanos tu información por aquí y nosotros nos contactamos:</p>
+    <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-full max-w-2xl lg:m-2 p-12 lg:p-2 justify-center">
       <div>
         <div className="mb-2 block font-bold">
           <Label htmlFor="username3" value="Your name" className='font-bold'/>
@@ -145,6 +149,7 @@ const Contact = () => {
       </div>
       <Button type="submit">Submit</Button>
     </form>
+    </section>
     </section>
   );
 }
