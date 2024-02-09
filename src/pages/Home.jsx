@@ -25,7 +25,7 @@ const Home = () => {
 				<br  className="hidden md:inline lg:hidden" /> Estamos aquí para ayudarte a encontrar la solución digital perfecta para tu negocio. Ofrecemos soluciones que se ajustan a tu presupuesto y dejan asombrados a tus clientes.
 			</p>
 			<div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start ">
-				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded bg-blue-bauzan text-green-bauzan transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700">Contactanos</a>
+				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded bg-blue-bauzan text-green-bauzan transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700">Contáctanos</a>
 				<a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-100">Servicios</a>
 			</div>
 		</div>
