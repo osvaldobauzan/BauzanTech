@@ -9,9 +9,11 @@ const Services = () => {
     <section className="font-Montserrat text-left font-semibold lg:text-lg">
       <Nav logo={BuazanRoundedLogo} />
 
-      <h1 className="mx-20 mt-10 font-Flipahaus text-6xl font-bold leadi sm:text-6xl text-green-bauzan">
-        Nuestros Servicios
-      </h1>
+      <div className="container my-8 mx-auto w-full flex justify-left">
+        <h1 className="my-10 font-Flipahaus text-left text-6xl leadi sm:text-6xl text-green-bauzan">
+          Nuestros Servicios
+        </h1>
+      </div>
 
       <CardServices />
 

@@ -131,7 +131,7 @@ export const CardServices = () => {
                   Desde $300 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
-                  /month
+                  /mes
                 </span>
               </li>
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
@@ -139,7 +139,7 @@ export const CardServices = () => {
                   Desde $220 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
-                  /month
+                  /mes
                 </span>
               </li>
             </ul>
@@ -171,8 +171,8 @@ export const CardServices = () => {
                 <br></br>
                 <br></br>
                 Estamos seguros que las redes sociales pueden ser la herramienta
-                que necesitas ahora mismo y que estas pueden representar un cambio
-                significativo para tu negocio. ¡Déjalo en nuestras manos!
+                que necesitas ahora mismo y que estas pueden representar un
+                cambio significativo para tu negocio. ¡Déjalo en nuestras manos!
               </p>
             </div>
             <ul class="w-full">
@@ -181,7 +181,7 @@ export const CardServices = () => {
                   Desde $400 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
-                  /month
+                  /mes
                 </span>
               </li>
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
@@ -189,7 +189,7 @@ export const CardServices = () => {
                   Desde $299 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
-                  /month
+                  /mes
                 </span>
               </li>
             </ul>
@@ -214,25 +214,27 @@ export const CardServices = () => {
                 E-Commerce - Aplicaciones Web
               </h5>
               <br></br>
-              <p class="text-base text-green-bauzan ">
+              <p class="text-left text-green-bauzan ">
                 ¿Quieres vender tus productos en línea con mayor
-                profesionalismo? Con nuestra experiencia en desarrollo web y
-                diseño, construiremos una tienda en línea o aplicación web que
+                profesionalismo? Construiremos para ti una tienda en línea que
                 refleje la esencia de tu marca y brinde una experiencia de
-                compra excepcional a tus clientes. Olvídate de pagar comisiones
-                a plataformas como Amazon, eBay o Mercado Libre, ¡tu negocio
-                estará en control total de sus ventas en línea!
+                compra excepcional a tus clientes.
+                <br></br>
+                <br></br>
+                Olvídate de pagar comisiones a plataformas como Amazon, eBay o
+                Mercado Libre, ¡tu negocio estará en control total de sus ventas
+                en línea!
               </p>
             </div>
             <ul class="w-full">
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
-                <span class="text-2xl font-bold text-red-900  line-through">
-                  Desde $1100 mxn
+                <span class="text-xl font-bold text-red-900  line-through">
+                  Desde $14,000 mxn
                 </span>
               </li>
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
-                <span class="text-3xl font-bold text-black-900 ">
-                  Desde $699 mxn
+                <span class="text-2xl font-bold text-black-900 ">
+                  Desde $10,900 mxn
                 </span>
               </li>
             </ul>
@@ -254,34 +256,34 @@ export const CardServices = () => {
             </div>
             <div class="p-6">
               <h5 class="font-Flipahaus mb-2 text-2xl leading-tight text-green-bauzan   text-left font-semibold">
-                Servicios Especializados para Restaurantes/Cafeterías
+                Servicios Especializados para Restaurantes o Cafeterías
               </h5>
               <br></br>
-              <p class="text-base text-green-bauzan ">
-                ¿Acabas de abrir tu restaurante o cafetería? Estamos aquí para
-                ofrecerte soluciones integrales. Desde la implementación de
-                menús digitales y códigos QR hasta sistemas completos de
-                administración y puntos de venta, te ayudaremos a optimizar tu
-                negocio y brindar una experiencia excepcional a tus clientes.
-                Confía en nosotros para hacer que la gestión de tu
+              <p class="text-left text-green-bauzan ">
+                ¿Acabas de abrir tu restaurante o cafetería? Queremos ayudarte,
+                desde la implementación de menús digitales y códigos QR hasta
+                sistemas completos de administración y puntos de venta<br></br>
+                <br></br>
+                Te ayudaremos a brindar una experiencia excepcional a tus
+                clientes. Confía en nosotros para hacer que la gestión de tu
                 establecimiento sea más eficiente y exitosa.
               </p>
             </div>
             <ul class="w-full">
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
-                <span class="text-2xl font-bold text-red-900  line-through">
-                  Desde $12 mxn
+                <span class="text-xl font-bold text-red-900  line-through">
+                  Desde $150 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
-                  /month
+                  /mes
                 </span>
               </li>
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
-                <span class="text-3xl font-bold text-black-900 ">
-                  Desde $5 mxn
+                <span class="text-2xl font-bold text-black-900 ">
+                  Desde $90 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
-                  /month
+                  /mes
                 </span>
               </li>
             </ul>
@@ -306,30 +308,27 @@ export const CardServices = () => {
                 Consultoría
               </h5>
               <br></br>
-              <p class="text-base text-green-bauzan ">
+              <p class="text-left text-green-bauzan ">
                 ¿Estás teniendo problemas con tus sistemas digitales actuales?
                 Estamos aquí para ayudarte. Nuestras sesiones de consultoría, a
                 precios accesibles, te proporcionarán soluciones personalizadas
                 para optimizar tus operaciones y superar cualquier obstáculo
-                tecnológico. Confía en nosotros para encontrar las mejores
-                soluciones y llevar tu negocio al siguiente nivel digital.
+                tecnológico.
+                <br></br>
+                <br></br>
+                Confía en nosotros para encontrar las mejores soluciones y
+                llevar tu negocio al siguiente nivel digital.
               </p>
             </div>
             <ul class="w-full">
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
-                <span class="text-2xl font-bold text-red-900  line-through">
-                  Desde $30 mxn
-                </span>
-                <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
-                  /month
+                <span class="text-xl font-bold text-red-900  line-through">
+                  Desde $350 mxn
                 </span>
               </li>
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
-                <span class="text-3xl font-bold text-black-900 ">
-                  Desde $19 mxn
-                </span>
-                <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
-                  /month
+                <span class="text-2xl font-bold text-black-900 ">
+                  Desde $199 mxn
                 </span>
               </li>
             </ul>
@@ -354,30 +353,33 @@ export const CardServices = () => {
                 Gestión de Citas y Reservaciones de Eventos
               </h5>
               <br></br>
-              <p class="text-base text-green-bauzan ">
-                Transforma la gestión de tu negocio con nuestra plataforma de
-                citas y reservaciones. Con soluciones personalizadas, agilizamos
-                la programación, reducimos cancelaciones y elevamos la
-                experiencia del cliente. Confía en nosotros para optimizar tus
-                operaciones y mejorar tu servicio, permitiéndote enfocarte en lo
-                más importante: hacer crecer tu negocio.
+              <p class="text-left text-green-bauzan ">
+                Transforma la gestión de tu negocio con una plataforma de citas
+                y reservaciones. Con soluciones personalizadas, agilizamos la
+                programación, reducimos cancelaciones y elevamos la experiencia
+                del cliente.
+                <br></br>
+                <br></br>
+                Confía en nosotros para optimizar tus operaciones y mejorar tu
+                servicio, permitiéndote enfocarte en lo más importante: hacer
+                crecer tu negocio.
               </p>
             </div>
             <ul class="w-full">
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
-                <span class="text-2xl font-bold text-red-900  line-through">
-                  Desde $30 mxn
+                <span class="text-xl font-bold text-red-900  line-through">
+                  Desde $350 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
-                  /month
+                  /mes
                 </span>
               </li>
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
-                <span class="text-3xl font-bold text-black-900 ">
-                  Desde $19 mxn
+                <span class="text-2xl font-bold text-black-900 ">
+                  Desde $199 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
-                  /month
+                  /mes
                 </span>
               </li>
             </ul>
@@ -402,7 +404,7 @@ export const CardServices = () => {
                 Otro
               </h5>
               <br></br>
-              <p class="text-base text-green-bauzan ">
+              <p class="text-left text-green-bauzan ">
                 ¿Tienes alguna otra necesidad tecnológica? Permítenos ayudarte.
                 Estamos seguros de que, si nos das la oportunidad, resolveremos
                 tus problemas digitales y potenciaremos tu negocio.
