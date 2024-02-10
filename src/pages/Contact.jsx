@@ -2,11 +2,13 @@
 'use client';
 import BuazanRoundedLogo from '/src/assets/Blue-round-Logo.png'
 import { Button, Checkbox, Label, Radio, TextInput, Textarea } from 'flowbite-react';
-import Nav from '../components/Navbar';
+import Nav from '../components/Nav';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import Footer from '../components/Footer'
+
 
 const Contact = () => {
 
@@ -166,6 +168,7 @@ const Contact = () => {
       <Button className='bg-blue-bauzan' type="submit">Enviar</Button>
     </form>
     </section>
+    <Footer />
     </section>
   );
 }

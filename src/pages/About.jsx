@@ -1,6 +1,6 @@
 import React from 'react'
 import Profiles from '../components/Profiles'
-import Nav from '../components/Navbar'
+import Nav from '../components/Nav'
 import BuazanRoundedLogo from '/src/assets/Blue-round-Logo.png'
 import BauzanRoundedRedLogo from '/src/assets/Red-round-Logo.png'
 
@@ -9,11 +9,6 @@ const About = () => {
 
 
   return (
-
-   // <h1 className="font-Flipahaus text-6xl font-bold leadi sm:text-6xl">About
-   // <span className="text-blue-bauzan"> to </span>
-   // </h1>
-
     
     <section className='font-Montserrat text-left font-semibold lg:text-lg'>
         <Nav logo={BuazanRoundedLogo}/>

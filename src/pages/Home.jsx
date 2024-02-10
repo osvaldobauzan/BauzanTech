@@ -1,10 +1,11 @@
 import BauzanLogo from '/src/assets/Blue-Logo-Landing.png'
 import BuazanRoundedLogo from '/src/assets/Blue-round-Logo.png'
-import BauzanRoundedRedLogo from '/src/assets/Red-round-Logo.png'
 import imageHero from '/src/assets/Main-Vector-LandingPage.png'
 import React from 'react'
-import Nav from '../components/Navbar'
-
+import Nav from '../components/Nav'
+import { CardServices } from '../components/CardServices'
+import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -33,19 +34,33 @@ const Home = () => {
 			<img src={imageHero} alt="" className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700" />
 		</div>
 	</div>
-	<div className='h-5'></div>
-	<footer className="bg-white rounded-lg max-h-full mt-4 sm:flex sm:flex-col sm:text-center sm:justify-between ">
-		<div className="w-full max-w-screen-xl mx-auto md:py-8 lg:px-8">
-			<div className="lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row sm:justify-between flex flex-col items-center space-y-7 mt-4 md:mt-0">
-				<a href="https://www.bauzantech.com/" className="flex w-auto items-center mb-4  space-x-3 rtl:space-x-reverse">
-					<img src={BauzanRoundedRedLogo} className="h-12 sm:hidden md:flex" />
-				</a>
-				<ul className="flex flex-wrap items-center mb-6 text-xs font-semibold text-gray-500 sm:mb-0 ">
-					<span className="block text-sm text-gray-500 sm:text-center ">© 2024 <a href="https://www.bauzantech.com/" className="hover:underline">Bauzan Tech Solutions</a>. All Rights Reserved.</span>
-				</ul>
-			</div>
+
+	<div className='h-10 m-5 lg:m-0'></div>
+
+<section className='flex justify-center'>
+	<div className='bg-green-bauzan rounded-lg max-w-6xl w-full shadow-2xl p-12 m-12 lg:m-0 xl:m-0'>
+		<h1 className="mx-20 my-5 font-Flipahaus text-center text-6xl font-bold leadi sm:text-6xl text-white">¡Consulta nuestras promociones!</h1> 
+		<div className='lg:mx-32 mx-12 mt-12 text-7xl flex justify-center' >
+
+		<a href="https://wa.me/527353593762" target='_blank'>
+			<FaWhatsapp className='mr-12 text-white' />
+		</a>
+		<a href="https://www.linkedin.com/company/bauzan-tech-solutions/" target='_blank'>
+		<FaLinkedin className='mr-12 text-white'/>
+		</a>
+		<a href="https://www.instagram.com/bauzantech?igsh=MWNiYjh6czViamE5cg%3D%3D&utm_source=qr" target='_blank'>
+		<FaInstagram className='text-white'/>
+		</a>
+
 		</div>
-	</footer>
+	  </div>
+</section>
+
+	<div className='h-10'></div>
+	<h1 className="mx-20 my-10 font-Flipahaus text-left text-6xl font-bold leadi sm:text-6xl text-green-bauzan">Nuestros Servicios</h1> 
+	<CardServices />
+	<div className='h-5'></div>
+	<Footer />
 </section>
   )
 }
