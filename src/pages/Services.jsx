@@ -30,7 +30,7 @@ const Services = () => {
                 </div>
                 <div class="p-6">
                     <h5
-                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan text-center font-semibold">
+                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan text-left font-semibold">
                     Desarrollo y Diseño de Sitios Web Estáticos - Bajo Costo
                     </h5>
                     <p class="text-base text-green-bauzan ">
@@ -63,7 +63,7 @@ const Services = () => {
                 </div>
                 <div class="p-6">
                     <h5
-                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-center font-semibold">
+                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-left font-semibold">
                     Creación de Marca - Manuales de Marca
                     </h5>
                     <p class="text-base text-green-bauzan ">
@@ -96,7 +96,7 @@ const Services = () => {
                 </div>
                 <div class="p-6">
                     <h5
-                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-center font-semibold">
+                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-left font-semibold">
                     Correos Corporativos y Sistemas de Administración para Tu Negocio
                     </h5>
                     <p class="text-base text-green-bauzan ">
@@ -131,7 +131,7 @@ const Services = () => {
                 </div>
                 <div class="p-6">
                     <h5
-                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-center font-semibold">
+                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-left font-semibold">
                     Marketing y Redes Sociales
                     </h5>
                     <p class="text-base text-green-bauzan ">
@@ -167,7 +167,7 @@ const Services = () => {
                 </div>
                 <div class="p-6">
                     <h5
-                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-center font-semibold">
+                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-left font-semibold">
                    E-Commerce - Aplicaciones Web
                     </h5>
                     <p class="text-base text-green-bauzan ">
@@ -200,7 +200,7 @@ const Services = () => {
                 </div>
                 <div class="p-6">
                     <h5
-                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-center font-semibold">
+                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-left font-semibold">
                    Servicios Especializados para Restaurantes/Cafeterías
                     </h5>
                     <p class="text-base text-green-bauzan ">
@@ -235,7 +235,7 @@ const Services = () => {
                 </div>
                 <div class="p-6">
                     <h5
-                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-center font-semibold">
+                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-left font-semibold">
                    Consultoría
                     </h5>
                     <p class="text-base text-green-bauzan ">
@@ -270,7 +270,7 @@ const Services = () => {
                 </div>
                 <div class="p-6">
                     <h5
-                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-center font-semibold">
+                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-left font-semibold">
                    Gestión de Citas y Reservaciones de Eventos
                     </h5>
                     <p class="text-base text-green-bauzan ">
@@ -305,7 +305,7 @@ const Services = () => {
                 </div>
                 <div class="p-6">
                     <h5
-                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan   text-center font-semibold">
+                    class="font-Flipahaus mb-2 text-xl leading-tight text-green-bauzan text-left font-semibold">
                    Otro
                     </h5>
                     <p class="text-base text-green-bauzan ">
