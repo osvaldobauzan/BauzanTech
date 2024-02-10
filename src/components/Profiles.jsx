@@ -98,8 +98,9 @@ const Profiles = () => {
                       <Modal.Body>
                         <div className="space-y-6">
                           <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                          Actualmente resido en Madrid, España, dedicando mi tiempo completo al desarrollo de Frontend y Backend. Busco entregar calidad en todo lo que desarrollo. 
-                          Me apasiona(...) y estoy listo para materializar tus ideas en código.
+                          Actualmente resido en Madrid, España, dedicando mi tiempo completo al desarrollo de Frontend y Backend. Mi enfoque se centra en el diseño,
+                           desarrollo y optimización de aplicaciones web de alto rendimiento. Destaco por abordar desafíos técnicos complejos y por dominar una 
+                           amplia gama de tecnologías frontend y backend, listo para impulsar proyectos web de manera integral.
                           </p>
                         </div>
                       </Modal.Body>
