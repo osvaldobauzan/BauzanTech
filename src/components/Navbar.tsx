@@ -20,7 +20,7 @@ const Nav = ({ logo }) => {
         <Link to={'/'}>
         <Navbar.Link>
           <img src={logo} className="hidden h-6 sm:h-9 md:flex items-center px-4 mb-1  hover:text-green-bauzan hover:border-b-2-green-bauzan transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-300 " alt="Home" />
-          <p className="lg:hidden md:hidden text-left px-1">Inicio</p>
+          <p className="lg:hidden md:hidden text-left px-1 text-green-bauzan font-bold hover:text-green-bauzan hover:border-b-2-green-bauzan transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-300">Inicio</p>
         </Navbar.Link>
         </Link>
 

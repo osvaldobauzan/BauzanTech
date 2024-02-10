@@ -70,8 +70,8 @@ const Contact = () => {
     <section className='font-Montserrat text-left lg:text-lg'>
       <Nav logo={BuazanRoundedLogo}/>
 
-      <h1 className="mx-32 mt-10 font-Flipahaus text-6xl font-bold leadi sm:text-6xl text-green-bauzan">Contáctanos</h1>
-      <div className='mx-32 mt-5 text-4xl flex ' >
+      <h1 className="lg:mx-32 mx-12 mt-10 font-Flipahaus text-6xl font-bold sm:text-6xl text-green-bauzan">Contáctanos</h1>
+      <div className='lg:mx-32 mx-12 mt-5 text-4xl flex ' >
 
       <a href="https://wa.me/527353593762" target='_blank'>
         <FaWhatsapp className='mr-5' />
@@ -86,7 +86,7 @@ const Contact = () => {
       </div>
     <section className='flex flex-col font-bold justify-center items-center'>
 
-    <p class="lg:mx-32 mx-12 mt-10 text-gray-500 dark:text-gray-400 xl:mb-10">¿Por que no nos cuentas un poco más de la solución que estás buscando? Podemos darte una consultoría gratuíta y hablar de tu negocio. Dejanos tu información por aquí y nosotros nos contactamos:</p>
+    <p class="lg:mx-32 mx-12 mt-10 text-gray-400 dark:text-gray-400 xl:mb-10">¿Por que no nos cuentas un poco más de la solución que estás buscando? Podemos darte una consultoría gratuíta y hablar de tu negocio. Dejanos tu información por aquí y nosotros nos contactamos:</p>
     <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-full max-w-2xl lg:m-2 p-12 lg:p-2 justify-center">
       <div>
         <div className="mb-2 block font-bold">
