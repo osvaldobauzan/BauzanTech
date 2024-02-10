@@ -4,7 +4,7 @@ import imageHero from '/src/assets/Main-Vector-LandingPage.png'
 import React from 'react'
 import Nav from '../components/Nav'
 import { CardServices } from '../components/CardServices'
-import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin} from "react-icons/fa";
 import Footer from '../components/Footer'
 
 const Home = () => {
@@ -12,11 +12,11 @@ const Home = () => {
    
     <section className="flex flex-col font-Montserrat font-bold">
         <Nav logo={BuazanRoundedLogo}  />
-		<div className='h-8 lg:h-2'></div>
-    <div className=" text-green-bauzan container mt-6 flex flex-col justify-center md:flex-col mx-auto max-h-screen sm:py-8 lg:py-0 lg:px-10 lg:flex-row lg:gap-10 xl:py-12 xl:text-2xl">
+		<div className='h-10 lg:h-2'></div>
+    <div className=" text-green-bauzan container mt-6 md:mt-24 flex flex-col justify-center md:flex-col mx-auto max-h-screen sm:py-8 lg:py-0 lg:px-10 lg:flex-row lg:gap-10 xl:py-12 xl:text-2xl">
 		<div className="flex flex-col justify-center px-6 pb-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left lg:text-lg xl:text-2xl">
             <div className='transition ease-in-out delay-150 hover:translate-y-1 hover:scale-110 duration-700'>
-            <h1 className="font-Flipahaus text-6xl font-bold leadi sm:text-6xl">Welcome
+            <h1 className="font-Flipahaus text-6xl leadi sm:text-5xl sm:text-left ">Welcome
 				<span className="text-blue-bauzan"> to </span>
                 <img src={BauzanLogo} alt="" />
 			</h1>
@@ -38,18 +38,20 @@ const Home = () => {
 	<div className='h-10 m-5 lg:m-0'></div>
 
 <section className='flex justify-center'>
-	<div className='bg-green-bauzan rounded-lg max-w-6xl w-full shadow-2xl p-12 m-12 lg:m-0 xl:m-0'>
-		<h1 className="mx-20 my-5 font-Flipahaus text-center text-6xl font-bold leadi sm:text-6xl text-white">¡Consulta nuestras promociones!</h1> 
-		<div className='lg:mx-32 mx-12 mt-12 text-7xl flex justify-center' >
+	<div className='bg-rojito1 rounded-xl p-7 mt-20 lg:mt-0 xl:mt-0 w-3/4'>
+	{/* <div className='bg-rojito1 rounded-lg text-4x1 max-w-6xl w-full shadow-2xl p-12 m-12 lg:m-0 xl:m-0'>*/}
+		<h1 className="font-Flipahaus text-center text-4xl leadi text-white">¡Consulta nuestras promociones!</h1> 
+		<div className='lg:mx-32 mx-12 mt-12 text-7xl flex justify-center sm:text-3x1' >
 
-		<a href="https://wa.me/527353593762" target='_blank'>
-			<FaWhatsapp className='mr-12 text-white' />
-		</a>
+		
 		<a href="https://www.linkedin.com/company/bauzan-tech-solutions/" target='_blank'>
 		<FaLinkedin className='mr-12 text-white'/>
 		</a>
 		<a href="https://www.instagram.com/bauzantech?igsh=MWNiYjh6czViamE5cg%3D%3D&utm_source=qr" target='_blank'>
-		<FaInstagram className='text-white'/>
+		<FaInstagram className='mr-12 text-white'/>
+		</a>
+		<a href="https://www.facebook.com/people/Bauzan-Tech-Solutions/61555996810861/" target='_blank'>
+			<FaFacebook className='text-white' />
 		</a>
 
 		</div>
@@ -57,7 +59,9 @@ const Home = () => {
 </section>
 
 	<div className='h-10'></div>
-	<h1 className="mx-20 my-10 font-Flipahaus text-left text-6xl font-bold leadi sm:text-6xl text-green-bauzan">Nuestros Servicios</h1> 
+	<div className='w-3/4 flex m-auto'>
+	<h1 className="my-10 font-Flipahaus text-left text-6xl leadi sm:text-6xl text-green-bauzan">Nuestros Servicios</h1> 
+	</div>
 	<CardServices />
 	<div className='h-5'></div>
 	<Footer />
