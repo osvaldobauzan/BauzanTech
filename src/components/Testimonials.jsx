@@ -24,7 +24,7 @@ export const Testimonials = () => {
           siguiente nivel!
         </p>
 
-        <h1 className="mx-20 mt-10 font-Flipahaus text-3xl font-bold leadi sm:text-6xl text-green-bauzan">
+        <h1 className="mx-20 mt-10 font-Flipahaus text-3xl font-bold leadi text-green-bauzan">
           Proximamente...
         </h1>
 
