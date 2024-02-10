@@ -50,7 +50,7 @@ export const Testimonials = () => {
         <img className="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture" />
         <div className="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
           <cite className="pe-3 font-medium text-white dark:text-white">Michael Gough</cite>
-          <cite className="ps-3 text-sm lg:text-base text-white">Du Dato Util</cite>
+          <cite className="ps-3 text-sm lg:text-base text-white">Empresa111</cite>
         </div>
       </figcaption>
     </figure>
@@ -66,7 +66,7 @@ export const Testimonials = () => {
         <img className="w-6 h-6 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png" alt="profile picture" />
         <div className="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
           <cite className="pe-3 font-medium text-white dark:text-white">Michael Gough</cite>
-          <cite className="ps-3 text-sm lg:text-base text-white">Regina Mod</cite>
+          <cite className="ps-3 text-sm lg:text-base text-white">Empres222</cite>
         </div>
       </figcaption>
     </figure>
