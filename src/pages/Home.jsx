@@ -10,7 +10,7 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
    
-    <section className="grid font-Montserrat font-bold">
+    <section className="flex flex-col font-Montserrat font-bold">
         <Nav logo={BuazanRoundedLogo}  />
 		<div className='h-8 lg:h-2'></div>
     <div className=" text-green-bauzan container mt-6 flex flex-col justify-center md:flex-col mx-auto max-h-screen sm:py-8 lg:py-0 lg:px-10 lg:flex-row lg:gap-10 xl:py-12 xl:text-2xl">
