@@ -70,7 +70,7 @@ const Contact = () => {
     <section className='font-Montserrat text-left lg:text-lg'>
       <Nav logo={BuazanRoundedLogo}/>
 
-      <h1 className="mx-32 mt-10 font-Flipahaus text-6xl font-bold leadi sm:text-6xl text-green-bauzan">Contáctanos</h1>
+      <h1 className="text-left mt-10 font-Flipahaus text-6xl font-bold leadi sm:text-6xl text-green-bauzan">Contáctanos</h1>
       <div className='mx-32 mt-5 text-4xl flex ' >
 
       <a href="https://wa.me/527353593762" target='_blank'>
