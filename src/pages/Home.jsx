@@ -59,7 +59,7 @@ const Home = () => {
 
       <section className="flex justify-center">
         <div className="bg-rojito1 rounded-xl p-7 mt-20 lg:mt-0 xl:mt-0 w-3/4">
-          <h1 className="font-Flipahaus text-center text-4xl leadi text-white">
+          <h1 className="font-Montserrat font-medium text-center text-4xl leadi text-white">
             ¡Consulta nuestras promociones!
           </h1>
           <div className="lg:mx-32 mx-12 mt-12 text-7xl flex justify-center sm:text-3x1">
