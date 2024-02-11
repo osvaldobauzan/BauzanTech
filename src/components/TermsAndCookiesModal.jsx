@@ -4,14 +4,14 @@ import Swal from "sweetalert2";
 const showTermsAndCookiesModal = () => {
   Swal.fire({
     title: "Términos y Cookies",
-    text: "Por favor, acepta nuestros términos y condiciones, así como el uso de cookies.",
+    html: "Por favor, lee nuestros <a href='/terminos' target='_blank'><span style='color: #95B2B0;'>términos y condiciones</span></a> y acepta el uso de <a href='/terminos' target='_blank'><span style='color: #95B2B0;'>cookies</span></a>.",
     icon: "info",
     showCloseButton: true,
     showCancelButton: true,
     confirmButtonText: "Aceptar",
     cancelButtonText: "Rechazar",
     cancelButtonColor: '#481620',
-    confirmButtonColor: '#1F271B'
+    confirmButtonColor: '#1F271B',
   }).then((result) => {
     if (result.isConfirmed) {
       localStorage.setItem("acceptedTermsAndCookies", true);
