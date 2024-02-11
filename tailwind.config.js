@@ -25,7 +25,9 @@ export default {
     extend: {
       colors: {
         'green-bauzan': '#1F271B',
-        'blue-bauzan': '#95B2B0'
+        'blue-bauzan': '#95B2B0',
+        'rojito1': '#A44A3F',
+        'rojito2': '#481620'
       },
       fontFamily: {
         'Flipahaus': ['Flipahaus'],
