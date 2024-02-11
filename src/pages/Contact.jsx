@@ -195,9 +195,9 @@ const Contact = () => {
           </div>
           <div className="flex items-center gap-2">
             <Checkbox required />
-            <Label htmlFor="terms">Aceptar Terminos de Privacidad</Label>
+            <Label htmlFor="terms">Aceptar <a href="/terms" className="underline hover:text-rojito1 active:text-rojito1">Terminos de Privacidad</a></Label>
           </div>
-          <Button className="bg-blue-bauzan" type="submit">
+          <Button className="bg-blue-bauzan hover:bg-rojito1" type="submit">
             Enviar
           </Button>
         </form>
