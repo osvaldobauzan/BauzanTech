@@ -72,6 +72,7 @@ const Contact = () => {
         text: "Por favor, completa todos los campos obligatorios.",
         icon: "error",
         confirmButtonColor: "#1F271B",
+        iconColor: '#481620',
       });
     }
   };

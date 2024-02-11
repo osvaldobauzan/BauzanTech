@@ -6,10 +6,12 @@ import Nav from "../components/Nav";
 import { CardServices } from "../components/CardServices";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Footer from "../components/Footer";
+import TermsAndCookiesModal from "../components/TermsAndCookiesModal";
 
 const Home = () => {
   return (
     <section className="flex flex-col font-Montserrat font-bold">
+    <TermsAndCookiesModal />
       <Nav logo={BuazanRoundedLogo} />
       <div className="h-10 lg:h-2"></div>
       <div className=" text-green-bauzan container mt-6 md:mt-24 flex flex-col justify-center md:flex-col mx-auto max-h-screen sm:py-8 lg:py-0 lg:px-10 lg:flex-row lg:gap-10 xl:py-12 xl:text-2xl">

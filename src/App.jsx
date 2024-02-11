@@ -7,13 +7,13 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import Clients from "./pages/Clients";
 import Terms from "./pages/Terms";
+import TermsAndCookiesModal from "./components/TermsAndCookiesModal";
 
 function App() {
   
 
   return (
     <Routes>
-
         <Route path="/" element={<Home />} />
 
         <Route path="/about" element={<About />} />
