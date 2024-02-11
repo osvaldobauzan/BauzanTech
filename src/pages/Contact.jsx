@@ -54,6 +54,7 @@ const Contact = () => {
                 title:  "¡Gracias por ponerte en contacto!",
                 text: "¡Te saludaremos en breve!",
                 icon: "success",
+                confirmButtonColor: '#1F271B'
               });
 
           })
