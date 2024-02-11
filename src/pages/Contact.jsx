@@ -26,7 +26,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (name && email && company && phone && message && whatsApp) {
+    if (name && email && company && phone && message) {
       const serviceId = "service_qpb0r9p";
       const templateId = "template_zhkry8s";
       const userId = "oo8-tuo0DC0b_dZUx";
