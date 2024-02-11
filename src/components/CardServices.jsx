@@ -26,8 +26,7 @@ export const CardServices = () => {
               <br></br>
               <p class="text-left text-green-bauzan ">
                 ¿Deseas fortalecer la presencia digital de tu negocio? ¿Estás
-                listo para proyectar una imagen más profesional? No te dejes
-                engañar por plataformas como Wix.
+                listo para proyectar una imagen más profesional?
               </p>
               <br></br>
               <p class="text-left text-green-bauzan ">
