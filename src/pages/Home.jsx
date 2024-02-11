@@ -67,13 +67,13 @@ const Home = () => {
               href="https://www.linkedin.com/company/bauzan-tech-solutions/"
               target="_blank"
             >
-              <FaLinkedin className="mr-12 text-white" />
+              <FaLinkedin className="mr-12 sm:mr-5 xs:mr-5 text-white" />
             </a>
             <a
               href="https://www.instagram.com/bauzantech?igsh=MWNiYjh6czViamE5cg%3D%3D&utm_source=qr"
               target="_blank"
             >
-              <FaInstagram className="mr-12 text-white" />
+              <FaInstagram className="mr-12 sm:mr-5 xs:mr-5 text-white" />
             </a>
             <a
               href="https://www.facebook.com/people/Bauzan-Tech-Solutions/61555996810861/"
@@ -87,7 +87,7 @@ const Home = () => {
 
       <div className="h-10"></div>
       <div className="w-3/4 flex m-auto">
-        <h1 className="my-10 font-Flipahaus text-left text-6xl leadi sm:text-6xl text-green-bauzan">
+        <h1 className="my-10 font-Flipahaus text-left text-6xl leadi sm:text-4xl xs:text-4xl text-green-bauzan">
           Nuestros Servicios
         </h1>
       </div>

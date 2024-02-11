@@ -5,7 +5,7 @@ export const Testimonials = () => {
   return (
     <>
       <section>
-        <h1 className="mx-20 mt-10 font-Flipahaus text-6xl font-bold leadi sm:text-6xl text-green-bauzan">
+        <h1 className="mx-20 mt-10 font-Flipahaus text-6xl font-bold leadi sm:text-4xl xs:text-4xl text-green-bauzan">
           Nuestros Clientes
         </h1>
 

@@ -10,7 +10,7 @@ const Services = () => {
       <Nav logo={BuazanRoundedLogo} />
 
       <div className="container my-8 mx-auto w-full flex justify-left">
-        <h1 className="my-10 font-Flipahaus text-left text-6xl leadi sm:text-6xl text-green-bauzan">
+        <h1 className="my-10 font-Flipahaus text-left text-6xl leadi sm:text-4xl xs:text-4xl text-green-bauzan">
           Nuestros Servicios
         </h1>
       </div>

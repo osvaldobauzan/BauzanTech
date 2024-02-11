@@ -77,7 +77,7 @@ const Contact = () => {
     <section className="font-Montserrat text-left lg:text-lg">
       <Nav logo={BuazanRoundedLogo} />
 
-      <h1 className="lg:mx-32 mx-12 mt-10 font-Flipahaus text-6xl font-bold sm:text-6xl text-green-bauzan">
+      <h1 className="lg:mx-32 mx-12 mt-10 font-Flipahaus text-6xl font-bold sm:text-4xl xs:text-4xl text-green-bauzan">
         Contáctanos
       </h1>
       <div className="lg:mx-32 mx-12 mt-5 text-4xl flex ">
