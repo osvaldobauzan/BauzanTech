@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 const showTermsAndCookiesModal = () => {
   Swal.fire({
     title: "Términos y Cookies",
-    html: "Por favor, lee nuestros <a href='/terminos' target='_blank'><span style='color: #95B2B0;'>términos y condiciones</span></a> y acepta el uso de <a href='/terminos' target='_blank'><span style='color: #95B2B0;'>cookies</span></a>.",
+    html: "Por favor, lee nuestros <a href='/terms' target='_blank'><span style='color: #95B2B0;'>términos y condiciones</span></a> y acepta el uso de <a href='/terms' target='_blank'><span style='color: #95B2B0;'>cookies</span></a>.",
     icon: "info",
     showCloseButton: true,
     showCancelButton: true,
@@ -15,13 +15,6 @@ const showTermsAndCookiesModal = () => {
   }).then((result) => {
     if (result.isConfirmed) {
       localStorage.setItem("acceptedTermsAndCookies", true);
-      Swal.fire({
-        showCloseButton: true,
-        title: "¡Gracias por aceptar!",
-        text: "Ahora puedes disfrutar de nuestro sitio web.",
-        icon: "success",
-        confirmButtonColor: '#1F271B'
-      });
     } else {
       Swal.fire({
         title: "¡Lo sentimos!",
