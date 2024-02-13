@@ -26,8 +26,7 @@ export const CardServices = () => {
               <br></br>
               <p class="text-left text-green-bauzan ">
                 ¿Deseas fortalecer la presencia digital de tu negocio? ¿Estás
-                listo para proyectar una imagen más profesional? No te dejes
-                engañar por plataformas como Wix.
+                listo para proyectar una imagen más profesional?
               </p>
               <br></br>
               <p class="text-left text-green-bauzan ">
@@ -45,7 +44,10 @@ export const CardServices = () => {
               </li>
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-2xl font-bold text-green-bauzan ">
-                  Desde $6,999 mxn
+                  Desde $7,999 mxn
+                </span>
+                <span class="ms-1 font-normal text-gray-500 dark:text-gray-400">
+                  (MSI)
                 </span>
               </li>
             </ul>
@@ -83,12 +85,15 @@ export const CardServices = () => {
             <ul class="w-full">
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-xl font-bold text-red-900  line-through">
-                  Desde $4,000 mxn
+                  Desde $6,000 mxn
                 </span>
               </li>
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-2xl font-bold text-black-900 ">
-                  Desde $2,499 mxn
+                  Desde $4,499 mxn 
+                </span>
+                <span class="ms-1 font-normal text-gray-500 dark:text-gray-400">
+                  (MSI)
                 </span>
               </li>
             </ul>
@@ -128,7 +133,7 @@ export const CardServices = () => {
             <ul class="w-full">
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-xl font-bold text-red-900  line-through">
-                  Desde $300 mxn
+                  Desde $500 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
                   /mes
@@ -136,7 +141,7 @@ export const CardServices = () => {
               </li>
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-2xl font-bold text-black-900 ">
-                  Desde $220 mxn
+                  Desde $420 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
                   /mes
@@ -178,7 +183,7 @@ export const CardServices = () => {
             <ul class="w-full">
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-xl font-bold text-red-900  line-through">
-                  Desde $400 mxn
+                  Desde $700 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
                   /mes
@@ -186,7 +191,7 @@ export const CardServices = () => {
               </li>
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-2xl font-bold text-black-900 ">
-                  Desde $299 mxn
+                  Desde $499 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
                   /mes
@@ -229,12 +234,15 @@ export const CardServices = () => {
             <ul class="w-full">
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-xl font-bold text-red-900  line-through">
-                  Desde $14,000 mxn
+                  Desde $16,000 mxn
                 </span>
               </li>
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-2xl font-bold text-black-900 ">
-                  Desde $10,900 mxn
+                  Desde $12,900 mxn
+                </span>
+                <span class="ms-1 font-normal text-gray-500 dark:text-gray-400">
+                  (MSI)
                 </span>
               </li>
             </ul>
@@ -272,7 +280,7 @@ export const CardServices = () => {
             <ul class="w-full">
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-xl font-bold text-red-900  line-through">
-                  Desde $150 mxn
+                  Desde $350 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
                   /mes
@@ -280,7 +288,7 @@ export const CardServices = () => {
               </li>
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-2xl font-bold text-black-900 ">
-                  Desde $90 mxn
+                  Desde $190 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
                   /mes
@@ -323,12 +331,12 @@ export const CardServices = () => {
             <ul class="w-full">
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-xl font-bold text-red-900  line-through">
-                  Desde $350 mxn
+                  Desde $650 mxn
                 </span>
               </li>
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-2xl font-bold text-black-900 ">
-                  Desde $199 mxn
+                  Desde $399 mxn
                 </span>
               </li>
             </ul>
@@ -368,7 +376,7 @@ export const CardServices = () => {
             <ul class="w-full">
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-xl font-bold text-red-900  line-through">
-                  Desde $350 mxn
+                  Desde $550 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
                   /mes
@@ -376,7 +384,7 @@ export const CardServices = () => {
               </li>
               <li class="w-full border-b-2 border-neutral-100 border-opacity-100 px-6 py-3 dark:border-opacity-50">
                 <span class="text-2xl font-bold text-black-900 ">
-                  Desde $199 mxn
+                  Desde $399 mxn
                 </span>
                 <span class="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">
                   /mes
