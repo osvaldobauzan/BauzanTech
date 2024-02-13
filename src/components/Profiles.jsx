@@ -13,7 +13,7 @@ import Melanie from '../assets/Melanie.jpg'
 import React from 'react'
 import { Modal } from 'flowbite-react';
 import { useState } from 'react';
-import { TiArrowForward } from "react-icons/ti";
+import { FaInfo } from "react-icons/fa";
 
 const Profiles = () => {
 
@@ -51,7 +51,7 @@ const Profiles = () => {
           <img src={mexflag} alt="" className='h-6 mt-2' />
           </a>
           
-          <button onClick={() => setOpenModal(true)} className='bg-transparent text-black hover:bg-none'><TiArrowForward /></button>
+          <button onClick={() => setOpenModal(true)} className='bg-transparent text-black hover:bg-none'><FaInfo /></button>
           <Modal dismissible show={openModal} onClose={() => setOpenModal(false)}>
           <Modal.Header></Modal.Header>
             <Modal.Body>
@@ -92,7 +92,7 @@ const Profiles = () => {
                   >
                   <img src={spainflag} alt="" className='h-6 mt-2' />
                   </a>
-                  <button onClick={() => setOpenModal2(true)} className='bg-transparent text-black hover:bg-none'><TiArrowForward /></button>
+                  <button onClick={() => setOpenModal2(true)} className='bg-transparent text-black hover:bg-none'><FaInfo /></button>
                     <Modal dismissible show={openModal2} onClose={() => setOpenModal2(false)}>
                     <Modal.Header></Modal.Header>  
                       <Modal.Body>
@@ -133,7 +133,7 @@ const Profiles = () => {
                   >
                   <img src={usflag} alt="" className='h-6 mt-2' />
                   </a>
-                  <button onClick={() => setOpenModal4(true)} className='bg-transparent text-black hover:bg-none'><TiArrowForward /></button>
+                  <button onClick={() => setOpenModal4(true)} className='bg-transparent text-black hover:bg-none'><FaInfo /></button>
                     <Modal dismissible show={openModal4} onClose={() => setOpenModal4(false)}>
                       <Modal.Header></Modal.Header>
                       <Modal.Body>
@@ -174,7 +174,7 @@ const Profiles = () => {
                   >
                   <img src={mexflag} alt="" className='h-6 mt-2' />
                   </a>
-                  <button onClick={() => setOpenModal3(true)} className='bg-transparent text-black hover:bg-none'><TiArrowForward /></button>
+                  <button onClick={() => setOpenModal3(true)} className='bg-transparent text-black hover:bg-none'><FaInfo /></button>
                     <Modal dismissible show={openModal3} onClose={() => setOpenModal3(false)}>
                     <Modal.Header></Modal.Header>
                       <Modal.Body>
